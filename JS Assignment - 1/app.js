@@ -109,3 +109,12 @@
 // else {
 //     alert("You're not eligible")
 // }
+
+// Task 8:
+// You have an array of that contains the name of  Pakistani Teams Player selected for WorldCup (15 Players) named as WorldCupSquad. Now tomorrow we have a match with India, So make an array of final team players (11 Players) that will be playing in tomorrows match from the WorldCupSquad array. 
+// (Hint : Make sure it should not disturb the array that contains 15 players instead you have to make a copy of this array)
+
+var arr = [' Babar Azam ', ' Fakhar Zaman ', ' Imam-ul-Haq ', ' Haider Ali ', ' Shadab Khan ', ' Mohammad Rizwan ', ' Sarfaraz Ahmed ', ' Shaheen Afridi ', ' Hasan Ali ', ' Haris Rauf ', ' Mohammad Hasnain ', ' Shoaib Malik ', ' Asif Ali ', ' Mohammad Nawaz ', ' Usman Qadir '];
+var abc = arr.slice(1,12)
+alert("Pakistani team : " + arr)
+alert("Pakistani Teams Player selected for WorldCup : " + abc)
